@@ -188,3 +188,4 @@ function MemoryModal({ memory, onClose }: { memory: Memory | null; onClose: () =
     </AnimatePresence>
   );
 }
+// This is a small change to trigger a rebuild
