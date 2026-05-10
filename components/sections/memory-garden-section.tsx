@@ -158,13 +158,11 @@ function MemoryModal({ memory, onClose }: { memory: Memory | null; onClose: () =
                 }}
               >
                 <div className="polaroid-photo-frame">
-                  <Image
-                    alt={memory.title}
-                    src={memory.imageSrc}
-                    fill
-                    sizes="(max-width: 768px) 86vw, 360px"
-                    className="object-contain"
-                  />
+                 <img
+  alt={`${memory.title} memory photo`}
+  src={memory.imageSrc}
+  style={{ width: "100%", height: "100%", objectFit: "contain" }}
+/>
                 </div>
               </div>
               <p className="mt-4 font-script text-3xl text-rose">{memory.eyebrow}</p>
