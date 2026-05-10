@@ -1,0 +1,12 @@
+node_modules
+.next
+.next-swc-cache
+.npm-cache
+.tools
+out
+dist
+.env*
+*.log
+*.err
+*.tsbuildinfo
+.DS_Store
